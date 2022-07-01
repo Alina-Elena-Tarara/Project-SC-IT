@@ -1,5 +1,7 @@
 # Project-SC-IT
 
-Proiectul este conceput a fi un semi - portofoliu. este partial dinamic si construit cu javascript. 
-Cu aceasta ocazie am exersat destul de mult mai multe clase in acelasi timp, si de asemenea, am invatat mult mai bine selectorii. 
-Cu siguranta insa, va fi imbuvatatit si cel final, mi-l voi adauga la portofoliul meu, cand voi face upload contului de git pe Linkedin sau pe cv.
+This project is designed as a portfolio. It has a lot of HTML, CSS si a little bit less of Javascript. 
+This project gave me the opportunity to learn better CSS selectors. 
+
+At his final version, i will certainly upload it to git again. I have still few more ideas to improve the work so far, but, due to my learning pace, i was not able to finish it until this point. 
+
