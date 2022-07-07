@@ -1,9 +1,6 @@
 let sidebar = document.getElementById("mySidebar");
 let closebtn = document.getElementById("close-btn");
 let content = document.getElementsByClassName(".content");
-
-// console.log(closebtn);
-
 let openbtn = document.getElementById("open-btn");
 
 openbtn.onclick = function() {
@@ -15,11 +12,8 @@ closebtn.onclick = function() {
   openbtn.style.display = "block";
 }
 
-
 const btns = document.querySelectorAll("#btn1, #btn2")
 const form_group = document.querySelector(".form-group");
-
-// console.log(btns);
 
 btns.forEach(btn => {
     btn.addEventListener("click", () => {
@@ -30,20 +24,16 @@ btns.forEach(btn => {
 
 let modal = document.getElementById("myModal");
 let img = document.querySelectorAll("div.frame.container img"); 
-// console.log(img); 
 let modalImg = document.getElementById("image-content");
-
 let captionText = document.getElementById("caption");
 
  for(let i = 0; i<img.length; i++) {
-  // console.log(img);
     img[i].onclick = function() {
     modal.style.display = "block";
     modalImg.src = this.src;
     captionText.innerHTML = this.alt;
  }
 }
-
 var span  = document.getElementsByClassName("close")[0];
 span.onclick = function() {
   modal.style.display = "none";
